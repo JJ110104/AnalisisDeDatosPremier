@@ -1,11 +1,11 @@
-from sklearn.linear_model import LinearRegression   
+from sklearn.linear_model import LinearRegression                   # pip install scikit-learn
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 from matplotlib.ticker import MaxNLocator 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-
+import numpy as np                                                  # pip install numpy
+import pandas as pd                                                 # pip install pandas
+import matplotlib.pyplot as plt                                     # pip install matplotlib
+                                                                    # pip install scikit-learn matplotlib numpy pandas
 
 data_frame = pd.read_csv("epl_player_stats_24_25.csv", sep=";")
 print(type(data_frame))
